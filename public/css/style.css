@@ -77,3 +77,31 @@ p{
     font-size: 20px;
     font-weight: 500;
 }
+
+@media screen and (max-width: 450px){
+    body{
+        max-width: 410px;
+    }
+    
+    .main-content{
+        max-width: 410px;
+    }
+
+    p{
+        font-size: 19px;
+    }
+
+    input{
+        padding: 12px;
+        font-size: 18px;
+    }
+
+    form button{
+        display: block;
+        margin-top: 7px;
+        padding: 8px;
+        width: 25%;
+        font-size: 19px;
+        height: 12%;
+    }
+}
